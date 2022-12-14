@@ -1,0 +1,102 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #333;
+    color: antiquewhite;
+}
+
+header {
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.instructions {
+    padding-top: 1rem;
+}
+
+.container {
+    width: 45%;
+    max-width: 40rem;;
+    margin: 1rem auto;
+    padding: 1.5rem 2rem;
+    border: 1px solid gray;
+}
+
+.coordinates {
+    width: 100%;
+    height: 5rem;
+    font-size: 0.75rem;
+}
+
+.container menu {
+    width: 60%;
+    padding: 1rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container menu button {
+    width: 45%;
+    padding: 0.5rem 0.5rem;
+    font-size: 0.8rem;
+    border-radius: 0.5rem;
+    box-shadow: 3px 3px 3px 0 gray;
+    transition: all linear 0.1s
+}
+
+.container menu button:hover {
+    box-shadow: 2px 2px 1px 0 gray;
+}
+
+.container menu button:active {
+    box-shadow: none;
+    transform: translate(2px, 2px);
+}
+
+.cad-info {
+    width: 100%;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    border-top: 1px solid gray;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+}
+
+.coord-title {
+    font-size: 0.9rem;
+    padding: 0.5rem
+}
+
+.cad-command {
+    display: inline-block;
+    width: 80%;
+    height: 1.5rem;
+    padding: 0.25rem 0.5rem;
+    background-color: antiquewhite;
+    color: #333;
+    font-size: 0.75rem;
+    text-overflow: ellipsis;
+    resize: none;
+}
+
+.copy {
+    font-size: 0.8rem;
+    padding: 0.2rem 0.25rem;
+    border: 1px solid black;
+    border-radius: 0.25rem;
+}
