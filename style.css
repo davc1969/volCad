@@ -83,15 +83,15 @@ header {
 }
 
 .cad-command {
-    display: inline-block;
+    
     width: 80%;
     height: 1.5rem;
     padding: 0.25rem 0.5rem;
     background-color: antiquewhite;
     color: #333;
     font-size: 0.75rem;
-    text-overflow: ellipsis;
     resize: none;
+    text-overflow: ellipsis;
 }
 
 .copy {
